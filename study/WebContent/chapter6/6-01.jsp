@@ -17,17 +17,17 @@
 		성분 : '망고, 설탕, 메타중아황산나트륨, 차차황색소',
 		원산지 : '필리핀'
 	};
-	
+
 	console.log(product['제품명']);
 	console.log(product['유형']);
 	console.log(product.성분);
 	console.log(product.원산지);
-	
+
 	var object = {
-			'with space' : 273,
-			'with~!@#$%^&*()_+' : 52
+		'with space' : 273,
+		'with~!@#$%^&*()_+' : 52
 	};
-	
+
 	console.log(object['with space']);
 	console.log(object['with~!@#$%^&*()_+']);
 	//console.log(object.with space); -> 안됨

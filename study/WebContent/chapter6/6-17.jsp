@@ -11,27 +11,27 @@
 <script>
 	//변수를 선언합니다.
 	var student = {};
-	
+
 	//객체에 속성을 추가합니다.
 	student.이름 = '윤인성';
 	student.취미 = '악기';
 	student.특기 = '프로그래밍';
 	student.장래희망 = '생명공학자';
-	
+
 	//toString() 메서드를 만듭니다.
-	student.toString = function(){
+	student.toString = function() {
 		var output = '';
-		for(var key in this){
+		for ( var key in this) {
 			//toString()메서드는 출력하지 않게한다.
-			if(key != 'toString'){
+			if (key != 'toString') {
 				output += key + '\t' + this[key] + '~~\n';
 			}
 		}
 		return output;
 	}
 	alert(student.toString());
-	
-	delete(student.장래희망);
+
+	delete (student.장래희망);
 	alert(student.toString());
 </script>
 </html>

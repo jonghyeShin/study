@@ -18,14 +18,14 @@
 		과학 : 98
 	};
 
-	var output='';
-	with(student){
+	var output = '';
+	with (student) {
 		output += 이름 + '\n';
 		output += 국어 + '\n';
 		output += 수학 + '\n';
 		output += 영어 + '\n';
 		output += 과학 + '\n';
-		output += '총점 : '+(국어+수학+영어+과학);
+		output += '총점 : ' + (국어 + 수학 + 영어 + 과학);
 	}
 	alert(output);
 </script>
